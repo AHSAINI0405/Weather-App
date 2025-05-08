@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-page</title>
+    <link href="loginstyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4b53a0167.js" crossorigin="anonymous"></script>
+</head>
+
+<body background="loginassets/img2.jpg" bgproperties="fixed">
+    <header>
+
+        <img src="./assets/logo2.png" height="150px" width="250px"> <br>
+        
+        </header>
+    <nav>
+        <a href="welcome.html" type="button ">Home </a>
+        <a href="login.html" type="button" role="button ">Login </a>
+    </nav>
+    <form method="post" action="register.php">
+        <div class="container">
+            <h1>Register</h1>
+            <div class="input-login">
+
+                <input type=text placeholder="Username" name="Username" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-login">
+                <input type=email placeholder="Email" required name="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-login">
+                <input type=text placeholder="Mobile No." required name="Mobile_No">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div class="input-login">
+                <input type=password placeholder="Password" required name="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="input-login">
+                <input type=password placeholder="Confirm Password" required name="Confirm_Password">
+                <i class="fa-solid fa-key"></i>
+            </div>
+
+            <div class="agreed">
+                <label> <input type="checkbox" required>I Agree </label>
+
+            </div>
+
+            <button class="btn" type="submit" value="Register" name="reg"> Register </button>
+            <div class="register-link">
+                <p>Already have an Account
+                    <a href="login.html">Login</a></p>
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

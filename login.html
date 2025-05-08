@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-page</title>
+    <link href="loginstyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4b53a0167.js" crossorigin="anonymous"></script>
+</head>
+
+<body background="loginassets/img1.jpg" bgproperties="fixed" alink="green" link="red" vlink="skyblue">
+
+    <header>
+
+        <img src="./assets/logo2.png" height="150px" width="250px"> <br>
+        
+        </header>
+    <nav>
+        
+        <a href="welcome.html" type="button ">Home </a>
+        <a href="register.html">Register </a>
+
+    </nav>
+    <div class="container">
+        <h1>Login</h1>
+        <div class="input-login">
+            <form method="POST" action="login.php">
+                <input type=text placeholder="Username" required name="Username">
+                <i class="fa-solid fa-user"></i>
+
+        </div>
+
+        <div class="input-login">
+            <input type="password" placeholder="Password" required name="Password">
+            <i class="fa-solid fa-key"></i>
+        </div>
+
+
+        <input class="btn" type="submit" value="Login" name="submit">
+        <div class="register-link">
+            <p>Don't have an account?
+                <a href="register.html">Register here</a></p>
+            </p>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>
