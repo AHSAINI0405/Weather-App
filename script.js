@@ -60,6 +60,3 @@ async function checkWeather(city) {
 searchBtn.addEventListener('click', () => {
     checkWeather(inputBox.value);
 });
-
-
-console.log("Amit chutiya h");
